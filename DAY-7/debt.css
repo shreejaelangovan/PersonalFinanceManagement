@@ -1,0 +1,41 @@
+.qw1{
+    display: flex;
+    width:100%;
+    height:90%;
+}
+.qw11{
+    float: left;
+    width:50%;
+    height:100%;
+    /* background-color: antiquewhite; */
+}
+.qw12{
+    float:right;
+    width:50%;
+    height:100%;
+    /* background-color: azure; */
+}
+.qw111{
+    /* padding-left: 20%; */
+    padding-bottom: 13%;
+    margin-top: 3rem;
+    width: 50%;
+    height:25%;
+    border-radius: 2rem;
+    background-color: #b9bece;
+    box-shadow:0 0 10px #000000;
+}
+#qs{
+    width: 50%;
+    height: 30%;
+    border-radius: 0.5rem;
+    background-color:  rgb(237, 241, 245);
+}
+.qw111:hover{
+    background-color:#29335c;
+    border-radius: 4px;
+    transition: all 0.2s ease-out;
+}
+#qs:hover{
+    color:#db2b39
+}
