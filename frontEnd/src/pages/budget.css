@@ -1,0 +1,31 @@
+.sh1{
+    width:50vw;
+    height:50vh;
+    background-color: #b9bece;
+    /* background-color: rgb(168, 178, 178); */
+    border-radius: 2rem;
+    padding-top: 1rem;
+}
+.y{
+    padding-top: 14vh;
+}
+.l2{
+    width:50%;
+    height:30%;
+    background-color: #b9bece;
+    /* background-color: rgb(168, 178, 178); */
+    border-radius: 2rem;
+    /* padding-bottom: 10%; */
+}
+.l1{
+    width:50%;
+}
+#bu{
+    width: 4rem;
+    color:white;
+    background-color: #29335c;
+}
+.y{
+    padding-top: 5%;
+
+}

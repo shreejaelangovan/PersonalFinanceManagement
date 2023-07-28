@@ -1,0 +1,62 @@
+@keyframes fadeInUp {
+    from {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+.profile-title {
+  font-size: 24px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.profile-fixed-container {
+  width: 80%;
+  margin: 0 auto;
+  height: 600px; 
+  overflow-y: auto; 
+}
+.profile-root {
+  width: 80%;
+  margin: 0 auto;
+  height: 100vh;
+  overflow-y: auto;
+}
+
+.profile-card-content {
+  background-color: #f0f0f0;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.profile-field,
+.profile-value {
+  padding: 8px 0;
+}
+
+.profile-value h2 {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.profile-field h2 {
+  font-size: 16px;
+  font-weight: bold;
+  color: #555;
+}
+
+@media (max-width: 768px) {
+  .profile-card-content {
+    padding: 10px;
+  }
+
+  .profile-field h2,
+  .profile-value h2 {
+    font-size: 14px;
+  }
+}
